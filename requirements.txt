@@ -1,0 +1,3 @@
+# Only provider-audit/check_provider_dilution.py needs third-party packages.
+# eval/ and reliability/ are stdlib-only (they drive the `hermes` CLI via subprocess).
+openai>=1.0
