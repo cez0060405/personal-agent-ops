@@ -1,5 +1,9 @@
 # personal-agent-ops
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/Tested_on-Windows%2011-lightgrey)
+
 个人级 AI Agent 工程实践集：**评估回归 · 供应商审计 · 可靠性运维 · 技能工程**。
 基于开源 Agent 框架（Hermes, by Nous Research）的真实生产环境打磨而成，所有数字来自本机实测。
 
@@ -31,21 +35,29 @@ python reliability/stream-watchdog.py --status
 大多数人演示 Agent 是"它能干什么"，这里公开的是更少人做的事：**怎么知道它一直干得对**。
 围绕一个长期运行的个人 Agent 系统，沉淀了四块可复用的工程资产。
 
+```text
+personal-agent-ops/
+├── eval/               # 125 条决策回归测试集 + 评测器 + 历史指标
+├── provider-audit/     # 供应商掺水/降级检测
+├── reliability/        # 断流看门狗 + 事件台账样例
+└── skills/             # Agent Skills 标准格式技能样本
+```
+
 ## 架构总览
 
 ```mermaid
 flowchart LR
-    U[用户] --> M[主 Agent · 常驻]
-    M --> R{工具决策器}
-    R -->|NONE| T0[内置工具<br>search/file/terminal]
-    R -->|PROFILE| T1[16 个子身份<br>tutor/researcher/...]
-    R -->|KANBAN| T2[看板派单<br>worker 协作]
-    R -->|COMPUTER_USE| T3[桌面 GUI 操作]
-    M --> C[Codex / OpenCode<br>跨框架委派]
-    M --> CRON[14 个定时任务<br>备份/评测/审计]
-    M --> MEM[(记忆 + 本地 RAG)]
-    W[断流看门狗] -.自动续跑.-> M
-    E[每日回归评测] -.准确率曲线.-> R
+    U[用户 User] --> M[主 Agent · 常驻<br>Resident main agent]
+    M --> R{工具决策器<br>Tool decision}
+    R -->|NONE| T0[内置工具 Built-in<br>search/file/terminal]
+    R -->|PROFILE| T1[16 个子身份 Sub-identities<br>tutor/researcher/...]
+    R -->|KANBAN| T2[看板派单 Kanban<br>worker collaboration]
+    R -->|COMPUTER_USE| T3[桌面 GUI<br>Desktop GUI]
+    M --> C[Codex / OpenCode<br>cross-framework delegation]
+    M --> CRON[14 定时任务 Cron jobs<br>backup/eval/audit]
+    M --> MEM[(记忆 + 本地 RAG<br>Memory + local RAG)]
+    W[断流看门狗<br>Stream watchdog] -. auto-resume .-> M
+    E[每日回归评测<br>Daily regression] -. accuracy curve .-> R
 ```
 
 ## 1️⃣ eval/ — Agent 决策回归评测
@@ -87,7 +99,7 @@ flowchart LR
 
 ## 环境事实（透明度声明）
 
-- 运行环境：Windows 11 单机，个人非开发者运维
+- 运行环境：Windows 11 单机，个人自用环境（非商业化部署），由 AI 辅助的日常维护流程撑起全部自动化
 - 模型：多供应商混布（免费订阅优先），分层路由按任务难度调度，API 成本近零
 - 系统整体：896 会话 / 28k+ 消息 / 14 定时任务 / 16 子身份（本仓库仅收录可公开部分）
 
