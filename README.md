@@ -28,8 +28,8 @@ flowchart LR
 ## 1️⃣ eval/ — Agent 决策回归评测
 
 - `tool-decision-dataset.jsonl`：**125 条**三标签金标样本（工具选择 / 行动值 / 风险级），含对抗样本
-- `tool-decision-eval.py`：决策级模拟评测器（零真实执行，评测本身无副作用）
-- `results/merged125-baseline-rescored.json`：完整基线结果存档
+- `tool-decision-eval.py`：决策级评测器——逐条向 Agent 采集其决策（工具/行动/风险三标签），**只评判断、不执行所选工具**；评测过程会对每条样本发起一次 `hermes chat` 查询，产生少量 API 消耗，但不触碰真实系统状态
+- `results/merged125-baseline-rescored.json`：完整基线结果存档（summary 汇总 + 125 条逐样本明细）
 
 **实测指标（125 样本）**：
 
@@ -49,7 +49,7 @@ flowchart LR
 ## 3️⃣ reliability/ — 断流看门狗
 
 `stream-watchdog.py`：监控多档案 agent 日志的流式响应中断，检测到 mid-stream drop 后自动注入续跑指令，无人值守自愈。
-`incidents-sample.jsonl`：事件台账样例（append-only，含恢复用时），稳定性判定看数据不凭印象。
+`incidents-sample.jsonl`：事件台账样例（append-only，记录注入时间戳与恢复结果，恢复用时=两时间戳差值可推导），稳定性判定看数据不凭印象。
 
 ## 4️⃣ skills/ — 技能工程样本
 
