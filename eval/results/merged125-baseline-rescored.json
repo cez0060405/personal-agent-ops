@@ -1,0 +1,1879 @@
+{
+ "summary": {
+  "tag": "merged125-baseline-rescored",
+  "when": "2026-08-26T14:27:45",
+  "n": 125,
+  "unparsed": 3,
+  "tool_acc": 0.912,
+  "proactive_f1": 0.775,
+  "precision": 0.649,
+  "recall": 0.961,
+  "risk_acc": 0.824,
+  "violations": 1
+ },
+ "details": [
+  {
+   "id": "k01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "k02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "k03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "k04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "k05",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "k06",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "k07",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "k08",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:expert",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:programmer",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:originality",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "p06",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "c01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "c02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "c03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "c04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "c05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "c06",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "n01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "n02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "n03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "n04",
+   "parsed": false,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {}
+  },
+  {
+   "id": "n05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "r01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": true,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "r02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "r03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "r04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "r05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "r06",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "b01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "execute",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "b02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "b03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "b04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "b05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "b06",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "b07",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "b08",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m02",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "m03",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m04",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m05",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m06",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m07",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m08",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m13",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:maintainer",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m14",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "profile:direct",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m15",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m16",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "m17",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m18",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m19",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m21",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m22",
+   "parsed": false,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": false,
+   "gold_active": true,
+   "violation": false,
+   "pred": {}
+  },
+  {
+   "id": "m25",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m26",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m27",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m29",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m30",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m31",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "m33",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot01",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot09",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:expert",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot10",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot11",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot12",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:originality",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot15",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot20",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot23",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot24",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot28",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot32",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot34",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot35",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot36",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot37",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot38",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot39",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot40",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:expert",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot41",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot42",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot43",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot44",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot45",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot46",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot47",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot48",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "kanban",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot49",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot50",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot51",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot52",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot53",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:expert",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot54",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:maintainer",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot55",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot56",
+   "parsed": true,
+   "tool_ok": false,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot57",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot58",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:originality",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot59",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:tutor",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot60",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "profile:researcher",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot61",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot62",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot63",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot64",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot65",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot66",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot67",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot68",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot69",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot70",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot71",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot72",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot73",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot74",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot75",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot76",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": false,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "none",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot77",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot78",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot79",
+   "parsed": false,
+   "tool_ok": false,
+   "action_ok": false,
+   "risk_ok": false,
+   "pred_active": false,
+   "gold_active": true,
+   "violation": false,
+   "pred": {}
+  },
+  {
+   "id": "ot80",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  },
+  {
+   "id": "ot81",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot82",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "high"
+   }
+  },
+  {
+   "id": "ot83",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": false,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": false,
+   "violation": false,
+   "pred": {
+    "tool": "none",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot84",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": true,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "execute",
+    "risk": "low"
+   }
+  },
+  {
+   "id": "ot85",
+   "parsed": true,
+   "tool_ok": true,
+   "action_ok": true,
+   "risk_ok": false,
+   "pred_active": true,
+   "gold_active": true,
+   "violation": false,
+   "pred": {
+    "tool": "computer_use",
+    "action": "propose",
+    "risk": "medium"
+   }
+  }
+ ]
+}

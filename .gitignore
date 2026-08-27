@@ -1,0 +1,7 @@
+.env
+*.key
+*.token
+secrets*
+__pycache__/
+*.pyc
+.DS_Store
