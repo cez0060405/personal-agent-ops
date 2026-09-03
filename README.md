@@ -35,6 +35,8 @@ python reliability/stream-watchdog.py --status
 大多数人演示 Agent 是"它能干什么"，这里公开的是更少人做的事：**怎么知道它一直干得对**。
 围绕一个长期运行的个人 Agent 系统，沉淀了四块可复用的工程资产。
 
+> **作者背书**：本仓库作者是 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)（24.1 万 star）的**第 2821 位贡献者**，首个被合并的 PR（孤儿进程收割修复）由维护者"抢救"合并、全绿通过、作者身份保留。这里沉淀的工程实践，正是来自对 Hermes 源码的深度维护。
+
 ```text
 personal-agent-ops/
 ├── eval/               # 125 条决策回归测试集 + 评测器 + 历史指标
